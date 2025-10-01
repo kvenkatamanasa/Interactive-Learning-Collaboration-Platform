@@ -1,7 +1,0 @@
-git remote remove origin
-git branch -M main
-git add .
-git commit -m "Initial commit: Next.js + Tailwind + shadcn/ui dashboard"
-git remote add origin https://github.com/kvenkatamanasa/my-vercel-app.git
-git pull origin main --allow-unrelated-histories
-git push -u origin main
