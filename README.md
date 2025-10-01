@@ -1,31 +1,31 @@
-An interactive learning dashboard built with Next.js, React, Tailwind CSS, ShadCN UI, Recharts, and Lucide Icons.
-This platform allows users to manage learning content, track progress, and customize their profile while switching roles between Learner and Mentor.
-✨ Features
-📊 Dashboard Overview:
-Track learning progress
-View content created, points, and connections
-Visualized analytics with Recharts
-📚 Content Management:
-Browse content (articles, tutorials, videos)
-Create, edit, and delete content
-Like and share functionality
-👤 Profile & Settings:
-View profile details (name, role, join date)
-Manage account settings (notifications, newsletter, dark mode toggle)
-Security settings (password change, 2FA)
-🔄 Role Switching:
-Toggle between Learner and Mentor modes
-🎨 Modern UI & UX:
-Built with Tailwind + ShadCN UI for clean design
-Lucide icons for rich interactions
-Responsive & mobile-friendly
-🛠️ Tech Stack
-Framework: Next.js
-UI Components: ShadCN UI
-Styling: Tailwind CSS
-Icons: Lucide React
-Charts: Recharts
+# 🚀 Git & Vercel Deployment Steps
 
-Icons: Lucide React
-🛠️ Tech Stac
-Framework: Next.js
+1. **Initialize your repository (if not already done):**
+   ```bash
+   git remote remove origin
+   git branch -M main
+   git add .
+   git commit -m "Initial commit: Next.js + Tailwind + shadcn/ui dashboard"
+   ```
+
+2. **Connect to GitHub:**
+   ```bash
+   git remote add origin https://github.com/kvenkatamanasa/my-vercel-app.git
+   ```
+
+3. **Sync with remote (if histories are unrelated):**
+   ```bash
+   git pull origin main --allow-unrelated-histories
+   ```
+   
+4. **Push your code:**
+   ```bash
+   git push -u origin main
+   ```
+   
+5. **Deploy via Vercel:**
+   - Go to [Vercel Dashboard](https://vercel.com/dashboard).
+   - Import your GitHub repo (`my-vercel-app`).
+   - Configure build settings if needed (`npm run build`, output: `.next`).
+   - Set environment variables if required.
+   - Click **Deploy**!
